@@ -1,3 +1,56 @@
 body{
-	font-size: 20px;
+	background-color:#dacfc7b0;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.intro{
+	font-style: normal;
+	text-align: center;
+}
+.heading{
+	font-size: 2em;
+	font-weight: bolder;
+}
+.prof{
+	font-size: 1.5em;
+}
+.summary{
+	font-size: 1.25em;
+	font-variant: small-caps;
+}
+.contactinfo{
+	font-size: 1em;
+	text-align: center;
+}
+.subheading{
+	font-size: 1.5em;
+	font-weight: bolder;
+	color:#F29436;
+	text-decoration: none;
+}
+.jobtitle{
+    font-size: 1em;
+    color: #4A6085;
+    font-weight: 600;
+	text-align: left;
+	text-decoration: none;
+} 
+.jobplace{
+    font-size: 1em;
+    color: #4A6085;
+    font-weight: 400;
+	text-align: left;
+	text-decoration: none;
+} 
+.data{
+	font-size: 0.8em;
+	color: #4A6085;
+	font-weight: 400;
+	text-align: left;
+	text-decoration: none;
+}
+.exp_info{
+	font-size: 1em;
+	color: #4A6085;
+	text-align: justify;
+	text-decoration: none;
 }
