@@ -1,6 +1,8 @@
 body{
 	background-color:#dacfc7b0;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	margin-left: 4em;
+	margin-right: 4em;
 }
 .intro{
 	font-style: normal;
@@ -26,6 +28,10 @@ body{
 	font-weight: bolder;
 	color:#F29436;
 	text-decoration: none;
+	padding-left: 1em;
+	border-top-style:solid;
+	border-top-width:0.05em;
+	border-color: gray;
 }
 .jobtitle{
     font-size: 1em;
@@ -53,4 +59,12 @@ body{
 	color: #4A6085;
 	text-align: justify;
 	text-decoration: none;
+}
+.social{
+	padding-left: 1em;
+}
+.footer{
+	background-color:#393F52;
+	color:#4A6085;
+	text-align: center;
 }
