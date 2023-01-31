@@ -3,6 +3,7 @@ body{
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	margin-left: 4em;
 	margin-right: 4em;
+	cursor: crosshair;
 }
 .intro{
 	font-style: normal;
@@ -60,10 +61,26 @@ body{
 	text-align: justify;
 	text-decoration: none;
 }
+ul{
+	list-style-type: none;
+}
 .social{
 	padding-left: 1em;
 }
-.footer{
+/* Links */
+a:link {
+    text-decoration: none;
+	color:#4A6085
+}
+a:hover{
+	color:#F29436;
+}
+a:visited{
+	text-decoration: none;
+	color:#4A6085
+}
+/* Footer */
+footer{
 	background-color:#393F52;
 	color:#4A6085;
 	text-align: center;
