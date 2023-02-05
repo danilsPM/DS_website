@@ -29,7 +29,7 @@ body{
 	font-weight: bolder;
 	color:#F29436;
 	text-decoration: none;
-	padding-left: 1em;
+	margin-left: 1em;
 	border-top-style:solid;
 	border-top-width:0.05em;
 	border-color: gray;
@@ -40,6 +40,7 @@ body{
     font-weight: 600;
 	text-align: left;
 	text-decoration: none;
+	margin-top: 1em;
 } 
 .jobplace{
     font-size: 1em;
@@ -65,7 +66,7 @@ ul{
 	list-style-type: none;
 }
 .social{
-	padding-left: 1em;
+	margin-left: 2.5em;
 }
 /* Links */
 a:link {
@@ -77,7 +78,7 @@ a:hover{
 }
 a:visited{
 	text-decoration: none;
-	color:#4A6085
+	color:#4A6085;
 }
 /* Footer */
 footer{
@@ -85,3 +86,10 @@ footer{
 	color:#4A6085;
 	text-align: center;
 }
+img{
+    float:none;
+}
+/* .icon{
+    float: left;
+    color: #2F5A78;
+} */
